@@ -151,6 +151,7 @@ form {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 0 24px;
 }
 
 input, textarea {
@@ -216,5 +217,19 @@ ul {
 display: none;
 }
 
+.section__description {
+    flex-direction: column;
+}
 
+.section__description--wrapper {
+    width: 100%;
+}
+
+.about__img--wrapper {
+    width: 100%;
+}
+
+#discord .section__description{
+    flex-direction: column-reverse;
+}
 }
